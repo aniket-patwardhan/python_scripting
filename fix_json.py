@@ -8,8 +8,8 @@ import json
 import os
 import re
 script_dir =os.path.dirname(__file__)
-file_path = os.path.join(script_dir, 'C:/Users/Aniket/Downloads/soleng_challenge_AniketPatwardhan/notes_sample.json')
-file_path1 = os.path.join(script_dir, 'C:/Users/Aniket/Downloads/soleng_challenge_AniketPatwardhan/notes_fixed.json')
+file_path = os.path.join(script_dir, 'C:/Users/Aniket/Downloads/python-script/notes_sample.json')
+file_path1 = os.path.join(script_dir, 'C:/Users/Aniket/Downloads/python-script/notes_fixed.json')
 #read_json_file_from_source_code
 with open(file_path, encoding="utf8") as read_json:
     read_content = json.load(read_json)
